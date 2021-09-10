@@ -51,6 +51,9 @@ import { AdminPanelComponent } from './components/admin-panel/admin-panel.compon
 import { UsersComponent } from './components/admin-panel/users/users.component';
 import { AddAdminComponent } from './components/admin-panel/users/add-admin/add-admin.component';
 import { UserOrdersComponent } from './components/admin-panel/users/user-orders/user-orders.component';
+import { ProductsComponent } from './components/admin-panel/products/products.component';
+import { EditProductComponent } from './components/admin-panel/edit-product/edit-product.component';
+import { ProductDetailsComponent } from './components/admin-panel/product-details/product-details.component';
 
 @NgModule({
   declarations: [
@@ -76,7 +79,10 @@ import { UserOrdersComponent } from './components/admin-panel/users/user-orders/
     AdminPanelComponent,
     UsersComponent,
     AddAdminComponent,
-    UserOrdersComponent
+    UserOrdersComponent,
+    ProductsComponent,
+    EditProductComponent,
+    ProductDetailsComponent
   ],
   imports: [
     BrowserModule,
