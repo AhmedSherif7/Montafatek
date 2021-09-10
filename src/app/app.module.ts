@@ -34,6 +34,13 @@ import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { SecondNavbarComponent } from './components/second-navbar/second-navbar.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { ProfileComponent } from './components/profile/profile.component';
+import { ProfileAddressComponent } from './components/profile/profile-address/profile-address.component';
+import { ProfileOrdersComponent } from './components/profile/profile-orders/profile-orders.component';
+import { ProfileSettingsComponent } from './components/profile/profile-settings/profile-settings.component';
+import { ProfileWishListComponent } from './components/profile/profile-wish-list/profile-wish-list.component';
+import { OrderDetailsComponent } from './components/profile/profile-orders/order-details/order-details.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +49,14 @@ import { SecondNavbarComponent } from './components/second-navbar/second-navbar.
     LoginComponent,
     RegisterComponent,
     NavbarComponent,
-    SecondNavbarComponent
+    SecondNavbarComponent,
+    FooterComponent,
+    ProfileComponent,
+    ProfileAddressComponent,
+    ProfileOrdersComponent,
+    ProfileSettingsComponent,
+    ProfileWishListComponent,
+    OrderDetailsComponent
   ],
   imports: [
     BrowserModule,
