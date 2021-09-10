@@ -54,6 +54,7 @@ import { UserOrdersComponent } from './components/admin-panel/users/user-orders/
 import { ProductsComponent } from './components/admin-panel/products/products.component';
 import { EditProductComponent } from './components/admin-panel/edit-product/edit-product.component';
 import { ProductDetailsComponent } from './components/admin-panel/product-details/product-details.component';
+import { AddProductComponent } from './components/admin-panel/add-product/add-product.component';
 
 @NgModule({
   declarations: [
@@ -82,7 +83,8 @@ import { ProductDetailsComponent } from './components/admin-panel/product-detail
     UserOrdersComponent,
     ProductsComponent,
     EditProductComponent,
-    ProductDetailsComponent
+    ProductDetailsComponent,
+    AddProductComponent
   ],
   imports: [
     BrowserModule,
