@@ -41,6 +41,12 @@ import { ProfileOrdersComponent } from './components/profile/profile-orders/prof
 import { ProfileSettingsComponent } from './components/profile/profile-settings/profile-settings.component';
 import { ProfileWishListComponent } from './components/profile/profile-wish-list/profile-wish-list.component';
 import { OrderDetailsComponent } from './components/profile/profile-orders/order-details/order-details.component';
+import { ProductComponent } from './components/product/product.component';
+import { ElectronicsComponent } from './components/product/electronics/electronics.component';
+import { HeadphonesComponent } from './components/product/electronics/headphones/headphones.component';
+import { LaptopsComponent } from './components/product/electronics/laptops/laptops.component';
+import { MobilesComponent } from './components/product/electronics/mobiles/mobiles.component';
+import { TelevisionsComponent } from './components/product/electronics/televisions/televisions.component';
 
 @NgModule({
   declarations: [
@@ -56,7 +62,13 @@ import { OrderDetailsComponent } from './components/profile/profile-orders/order
     ProfileOrdersComponent,
     ProfileSettingsComponent,
     ProfileWishListComponent,
-    OrderDetailsComponent
+    OrderDetailsComponent,
+    ProductComponent,
+    ElectronicsComponent,
+    HeadphonesComponent,
+    LaptopsComponent,
+    MobilesComponent,
+    TelevisionsComponent
   ],
   imports: [
     BrowserModule,
