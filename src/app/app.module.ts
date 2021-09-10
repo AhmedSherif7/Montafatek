@@ -34,6 +34,7 @@ import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { SecondNavbarComponent } from './components/second-navbar/second-navbar.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { SecondNavbarComponent } from './components/second-navbar/second-navbar.
     LoginComponent,
     RegisterComponent,
     NavbarComponent,
-    SecondNavbarComponent
+    SecondNavbarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
