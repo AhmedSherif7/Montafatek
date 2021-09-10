@@ -41,6 +41,7 @@ import { ProfileOrdersComponent } from './components/profile/profile-orders/prof
 import { ProfileSettingsComponent } from './components/profile/profile-settings/profile-settings.component';
 import { ProfileWishListComponent } from './components/profile/profile-wish-list/profile-wish-list.component';
 import { OrderDetailsComponent } from './components/profile/profile-orders/order-details/order-details.component';
+import { ProductComponent } from './components/product/product.component';
 
 @NgModule({
   declarations: [
@@ -56,7 +57,8 @@ import { OrderDetailsComponent } from './components/profile/profile-orders/order
     ProfileOrdersComponent,
     ProfileSettingsComponent,
     ProfileWishListComponent,
-    OrderDetailsComponent
+    OrderDetailsComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,
