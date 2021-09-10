@@ -32,13 +32,25 @@ import { AppComponent } from './app.component';
 import { ComponentsComponent } from './components/components.component';
 import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
+import { ProductComponent } from './components/product/product.component';
+import { ElectronicsComponent } from './components/product/electronics/electronics.component';
+import { HeadphonesComponent } from './components/product/electronics/headphones/headphones.component';
+import { LaptopsComponent } from './components/product/electronics/laptops/laptops.component';
+import { MobilesComponent } from './components/product/electronics/mobiles/mobiles.component';
+import { TelevisionsComponent } from './components/product/electronics/televisions/televisions.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ComponentsComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    ProductComponent,
+    ElectronicsComponent,
+    HeadphonesComponent,
+    LaptopsComponent,
+    MobilesComponent,
+    TelevisionsComponent
   ],
   imports: [
     BrowserModule,
