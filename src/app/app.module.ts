@@ -48,6 +48,9 @@ import { LaptopsComponent } from './components/product/electronics/laptops/lapto
 import { MobilesComponent } from './components/product/electronics/mobiles/mobiles.component';
 import { TelevisionsComponent } from './components/product/electronics/televisions/televisions.component';
 import { AdminPanelComponent } from './components/admin-panel/admin-panel.component';
+import { UsersComponent } from './components/admin-panel/users/users.component';
+import { AddAdminComponent } from './components/admin-panel/users/add-admin/add-admin.component';
+import { UserOrdersComponent } from './components/admin-panel/users/user-orders/user-orders.component';
 
 @NgModule({
   declarations: [
@@ -70,7 +73,10 @@ import { AdminPanelComponent } from './components/admin-panel/admin-panel.compon
     LaptopsComponent,
     MobilesComponent,
     TelevisionsComponent,
-    AdminPanelComponent
+    AdminPanelComponent,
+    UsersComponent,
+    AddAdminComponent,
+    UserOrdersComponent
   ],
   imports: [
     BrowserModule,
