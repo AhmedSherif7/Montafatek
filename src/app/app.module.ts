@@ -33,6 +33,7 @@ import { ComponentsComponent } from './components/components.component';
 import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { SecondNavbarComponent } from './components/second-navbar/second-navbar.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     ComponentsComponent,
     LoginComponent,
     RegisterComponent,
-    NavbarComponent
+    NavbarComponent,
+    SecondNavbarComponent
   ],
   imports: [
     BrowserModule,
