@@ -25,7 +25,7 @@ import { CardModule } from "primeng/card";
 import { PasswordModule } from "primeng/password";
 import { DividerModule } from "primeng/divider";
 import { DialogModule } from 'primeng/dialog';
-// import { ChartModule } from 'primeng/chart';
+import { ChartModule } from 'primeng/chart';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -47,6 +47,7 @@ import { HeadphonesComponent } from './components/product/electronics/headphones
 import { LaptopsComponent } from './components/product/electronics/laptops/laptops.component';
 import { MobilesComponent } from './components/product/electronics/mobiles/mobiles.component';
 import { TelevisionsComponent } from './components/product/electronics/televisions/televisions.component';
+import { AdminPanelComponent } from './components/admin-panel/admin-panel.component';
 
 @NgModule({
   declarations: [
@@ -68,7 +69,8 @@ import { TelevisionsComponent } from './components/product/electronics/televisio
     HeadphonesComponent,
     LaptopsComponent,
     MobilesComponent,
-    TelevisionsComponent
+    TelevisionsComponent,
+    AdminPanelComponent
   ],
   imports: [
     BrowserModule,
@@ -97,6 +99,7 @@ import { TelevisionsComponent } from './components/product/electronics/televisio
     PasswordModule,
     DividerModule,
     DialogModule,
+    ChartModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
